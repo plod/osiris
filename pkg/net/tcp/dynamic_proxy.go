@@ -7,9 +7,9 @@ import (
 	"net"
 	"time"
 
-	mynet "github.com/plod/osiris/pkg/net"
-	"github.com/plod/osiris/pkg/net/http"
-	"github.com/plod/osiris/pkg/net/tls"
+	mynet "github.com/deislabs/osiris/pkg/net"
+	"github.com/deislabs/osiris/pkg/net/http"
+	"github.com/deislabs/osiris/pkg/net/tls"
 	"github.com/golang/glog"
 )
 

@@ -4,7 +4,7 @@ import (
 	"encoding/base64"
 	"encoding/json"
 
-	"github.com/plod/osiris/pkg/kubernetes"
+	"github.com/deislabs/osiris/pkg/kubernetes"
 	"github.com/golang/glog"
 	corev1 "k8s.io/api/core/v1"
 )

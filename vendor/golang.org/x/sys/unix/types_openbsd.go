@@ -2,7 +2,6 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-//go:build ignore
 // +build ignore
 
 /*
@@ -160,7 +159,6 @@ const (
 	SizeofSockaddrUnix     = C.sizeof_struct_sockaddr_un
 	SizeofSockaddrDatalink = C.sizeof_struct_sockaddr_dl
 	SizeofLinger           = C.sizeof_struct_linger
-	SizeofIovec            = C.sizeof_struct_iovec
 	SizeofIPMreq           = C.sizeof_struct_ip_mreq
 	SizeofIPv6Mreq         = C.sizeof_struct_ipv6_mreq
 	SizeofMsghdr           = C.sizeof_struct_msghdr
@@ -243,7 +241,6 @@ type Winsize C.struct_winsize
 
 const (
 	AT_FDCWD            = C.AT_FDCWD
-	AT_SYMLINK_FOLLOW   = C.AT_SYMLINK_FOLLOW
 	AT_SYMLINK_NOFOLLOW = C.AT_SYMLINK_NOFOLLOW
 )
 
@@ -277,9 +274,3 @@ type Utsname C.struct_utsname
 const SizeofUvmexp = C.sizeof_struct_uvmexp
 
 type Uvmexp C.struct_uvmexp
-
-// Clockinfo
-
-const SizeofClockinfo = C.sizeof_struct_clockinfo
-
-type Clockinfo C.struct_clockinfo

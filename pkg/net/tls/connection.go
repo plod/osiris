@@ -6,7 +6,7 @@ import (
 	"io"
 	"net"
 
-	mynet "github.com/plod/osiris/pkg/net"
+	mynet "github.com/deislabs/osiris/pkg/net"
 )
 
 type sniSniffConn struct {

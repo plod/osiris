@@ -9,7 +9,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/plod/osiris/pkg/net/http/httputil"
+	"github.com/deislabs/osiris/pkg/net/http/httputil"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/h2c"

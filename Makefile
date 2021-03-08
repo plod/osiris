@@ -14,7 +14,7 @@ endif
 # Go build details                                                             #
 ################################################################################
 
-BASE_PACKAGE_NAME := github.com/plod/osiris
+BASE_PACKAGE_NAME := github.com/deislabs/osiris
 
 LDFLAGS = -w -X $(BASE_PACKAGE_NAME)/pkg/version.commit=$(GIT_VERSION) \
 	-X $(BASE_PACKAGE_NAME)/pkg/version.version=$(OSIRIS_VERSION)

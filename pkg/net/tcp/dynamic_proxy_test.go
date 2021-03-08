@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	mynet "github.com/plod/osiris/pkg/net"
-	myhttp "github.com/plod/osiris/pkg/net/http"
+	mynet "github.com/deislabs/osiris/pkg/net"
+	myhttp "github.com/deislabs/osiris/pkg/net/http"
 	"github.com/phayes/freeport"
 	"github.com/stretchr/testify/require"
 )

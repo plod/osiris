@@ -5,14 +5,14 @@ base-go-job: &base-go-job
     - image: quay.io/deis/lightweight-docker-go:v0.5.0
   environment:
     SKIP_DOCKER: true
-  working_directory: /go/src/github.com/plod/osiris
+  working_directory: /go/src/github.com/deislabs/osiris
 
 base-docker-job: &base-docker-job
   docker:
     - image: quay.io/deis/acr-publishing-tools:v0.2.0
   environment:
     SKIP_DOCKER: true
-  working_directory: /go/src/github.com/plod/osiris
+  working_directory: /go/src/github.com/deislabs/osiris
 
 log-into-docker-registry-step: &log-into-docker-registry-step
   name: Log into Docker Registry

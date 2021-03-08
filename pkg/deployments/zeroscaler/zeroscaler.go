@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/plod/osiris/pkg/healthz"
-	k8s "github.com/plod/osiris/pkg/kubernetes"
+	"github.com/deislabs/osiris/pkg/healthz"
+	k8s "github.com/deislabs/osiris/pkg/kubernetes"
 	"github.com/golang/glog"
 	appsv1 "k8s.io/api/apps/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

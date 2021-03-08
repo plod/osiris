@@ -3,9 +3,9 @@ package main
 import (
 	"context"
 
-	deployments "github.com/plod/osiris/pkg/deployments/activator"
-	"github.com/plod/osiris/pkg/kubernetes"
-	"github.com/plod/osiris/pkg/version"
+	deployments "github.com/deislabs/osiris/pkg/deployments/activator"
+	"github.com/deislabs/osiris/pkg/kubernetes"
+	"github.com/deislabs/osiris/pkg/version"
 	"github.com/golang/glog"
 )
 

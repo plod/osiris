@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	k8s "github.com/plod/osiris/pkg/kubernetes"
+	k8s "github.com/deislabs/osiris/pkg/kubernetes"
 	"github.com/golang/glog"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/fields"

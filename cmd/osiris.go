@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/plod/osiris/pkg/signals"
+	"github.com/deislabs/osiris/pkg/signals"
 	"github.com/golang/glog"
 )
 

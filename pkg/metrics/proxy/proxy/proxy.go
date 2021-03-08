@@ -9,9 +9,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/plod/osiris/pkg/healthz"
-	"github.com/plod/osiris/pkg/metrics"
-	"github.com/plod/osiris/pkg/net/tcp"
+	"github.com/deislabs/osiris/pkg/healthz"
+	"github.com/deislabs/osiris/pkg/metrics"
+	"github.com/deislabs/osiris/pkg/net/tcp"
 	"github.com/golang/glog"
 	uuid "github.com/satori/go.uuid"
 )
