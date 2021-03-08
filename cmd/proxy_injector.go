@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 
-	proxy "github.com/deislabs/osiris/pkg/metrics/proxy/injector"
-	"github.com/deislabs/osiris/pkg/version"
+	proxy "github.com/plod/osiris/pkg/metrics/proxy/injector"
+	"github.com/plod/osiris/pkg/version"
 	"github.com/golang/glog"
 )
 

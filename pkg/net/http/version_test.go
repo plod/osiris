@@ -4,7 +4,7 @@ import (
 	"net"
 	"testing"
 
-	mynet "github.com/deislabs/osiris/pkg/net"
+	mynet "github.com/plod/osiris/pkg/net"
 	"github.com/stretchr/testify/require"
 )
 
