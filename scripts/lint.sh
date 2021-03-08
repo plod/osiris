@@ -4,6 +4,6 @@
 
 set -euxo pipefail
 
-golangci-lint run \
+golangci-lint --out-format=github-actions run \
   ./cmd/... \
   ./pkg/...
