@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	k8s "github.com/deislabs/osiris/pkg/kubernetes"
+	k8s "github.com/plod/osiris/pkg/kubernetes"
 	"github.com/stretchr/testify/assert"
 	appsv1 "k8s.io/api/apps/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

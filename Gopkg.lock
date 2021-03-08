@@ -10,6 +10,23 @@
   version = "v1.1.1"
 
 [[projects]]
+  branch = "master"
+  digest = "1:12503d64a0f0874f85ca9f2fa71da0a1a922aecba4187e6356cd53e68200ba96"
+  name = "github.com/deislabs/osiris"
+  packages = [
+    "pkg/deployments/zeroscaler",
+    "pkg/healthz",
+    "pkg/kubernetes",
+    "pkg/metrics",
+    "pkg/net",
+    "pkg/net/http",
+    "pkg/net/http/httputil",
+    "pkg/version",
+  ]
+  pruneopts = "UT"
+  revision = "a53ac428ba5d521516e50d94dd1b7d5891b6a993"
+
+[[projects]]
   digest = "1:2cd7915ab26ede7d95b8749e6b1f933f1c6d5398030684e6505940a10f31cfda"
   name = "github.com/ghodss/yaml"
   packages = ["."]
@@ -479,6 +496,13 @@
   analyzer-name = "dep"
   analyzer-version = 1
   input-imports = [
+    "github.com/deislabs/osiris/pkg/deployments/zeroscaler",
+    "github.com/deislabs/osiris/pkg/healthz",
+    "github.com/deislabs/osiris/pkg/kubernetes",
+    "github.com/deislabs/osiris/pkg/metrics",
+    "github.com/deislabs/osiris/pkg/net",
+    "github.com/deislabs/osiris/pkg/net/http",
+    "github.com/deislabs/osiris/pkg/version",
     "github.com/golang/glog",
     "github.com/kelseyhightower/envconfig",
     "github.com/phayes/freeport",

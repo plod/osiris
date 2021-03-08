@@ -3,7 +3,7 @@ package http
 import (
 	"regexp"
 
-	"github.com/plod/osiris/pkg/net"
+	"github.com/deislabs/osiris/pkg/net"
 )
 
 var httpReqRegex = regexp.MustCompile(`\A[A-Z]+\s+\S+\s+HTTP/((?:1\.0)|(?:1\.1)|(?:2\.0))\r?\n`) // nolint: lll
