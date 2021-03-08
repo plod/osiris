@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/deislabs/osiris/pkg/net/http/httputil"
+	"github.com/plod/osiris/pkg/net/http/httputil"
 	"github.com/golang/glog"
 	"golang.org/x/net/http2"
 )

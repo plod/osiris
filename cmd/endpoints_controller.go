@@ -3,9 +3,9 @@ package main
 import (
 	"context"
 
-	endpoints "github.com/deislabs/osiris/pkg/endpoints/controller"
-	"github.com/deislabs/osiris/pkg/kubernetes"
-	"github.com/deislabs/osiris/pkg/version"
+	endpoints "github.com/plod/osiris/pkg/endpoints/controller"
+	"github.com/plod/osiris/pkg/kubernetes"
+	"github.com/plod/osiris/pkg/version"
 	"github.com/golang/glog"
 )
 

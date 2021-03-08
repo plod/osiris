@@ -3,7 +3,7 @@ package activator
 import (
 	"encoding/json"
 
-	"github.com/deislabs/osiris/pkg/kubernetes"
+	"github.com/plod/osiris/pkg/kubernetes"
 	"github.com/golang/glog"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/labels"

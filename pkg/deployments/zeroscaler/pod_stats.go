@@ -3,7 +3,7 @@ package zeroscaler
 import (
 	"time"
 
-	"github.com/deislabs/osiris/pkg/metrics"
+	"github.com/plod/osiris/pkg/metrics"
 )
 
 type podStats struct {

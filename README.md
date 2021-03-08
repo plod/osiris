@@ -1,3 +1,5 @@
+This is a fork of https://github.com/deislabs/osiris which was archived
+
 # Osiris - A general purpose, Scale to Zero component for Kubernetes
 
 [![CircleCI](https://circleci.com/gh/deislabs/osiris/tree/master.svg?style=svg)](https://circleci.com/gh/deislabs/osiris/tree/master)
